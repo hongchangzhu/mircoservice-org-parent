@@ -9,9 +9,7 @@
 		<artifactId>mircoservice-org-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.netsframe</groupId>
 	<artifactId>mircoservice-org-api</artifactId>
-	
 	<name>mircoservice-org-api</name>
 	<url>http://maven.apache.org</url>
 	<properties>
