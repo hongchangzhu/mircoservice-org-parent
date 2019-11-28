@@ -1,6 +1,6 @@
-package org.mircoservice.org.provider.rest;
+package org.netsframe.org.provider.rest;
 
-import org.mircoservice.org.api.OrgService;
+import org.netsframe.org.api.OrgService;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

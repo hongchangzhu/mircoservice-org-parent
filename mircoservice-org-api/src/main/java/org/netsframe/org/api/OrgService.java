@@ -1,4 +1,4 @@
-package org.mircoservice.org.api;
+package org.netsframe.org.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
