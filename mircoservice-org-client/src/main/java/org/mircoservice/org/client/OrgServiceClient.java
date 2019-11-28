@@ -4,8 +4,6 @@ import org.mircoservice.org.api.OrgService;
 import org.mircoservice.org.api.ServiceApi;
 import org.springframework.cloud.netflix.feign.FeignClient;
 
-import feign.hystrix.FallbackFactory;
-
 @FeignClient(name = ServiceApi.SERVICE_NAME, fallback = OrgServiceClient.class)
 public interface OrgServiceClient extends OrgService //FallbackFactory<OrgService> 
 {
